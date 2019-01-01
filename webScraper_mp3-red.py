@@ -1,3 +1,7 @@
+# Webscraping script for mp3-red.co v1
+# Created with love on Python
+# Jan 1 2019
+
 import requests
 import urllib
 from bs4 import BeautifulSoup
@@ -62,13 +66,6 @@ def get_single_item_data(item_url,url, headers):
     print(r.headers)
     filename = get_filename_from_cd(r.headers.get('content-disposition'))
     open(filename, 'wb').write(r.content)
-
-
-    # with open("burna.mp3", "wb") as code:
-    #     code.write(r.content)
-               #response = urllib.urlopen("http://mp3-red.co/stream/20781389/burna-boy-bad-boy-feat-korkormikor.mp3")
-    #mp3 = response.read()
-    #open("burn2", 'wb').write(r)
 
 def get_filename_from_cd(cd):
     """
