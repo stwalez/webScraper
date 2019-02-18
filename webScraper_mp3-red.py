@@ -1,4 +1,4 @@
-# Webscraping script for mp3-red.co v1
+# Webscraping script for mp3-red.co v2
 # Created with love on Python
 # Updated Feb 18 2019
 
