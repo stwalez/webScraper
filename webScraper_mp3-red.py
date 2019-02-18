@@ -1,3 +1,7 @@
+# Webscraping script for mp3-red.co v1
+# Created with love on Python
+# Updated Feb 18 2019
+
 import requests
 import urllib
 from bs4 import BeautifulSoup
