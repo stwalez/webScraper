@@ -70,6 +70,7 @@ def get_single_item_data(item_url,url,ses):
     print(r.status_code)
     
     filename = get_filename_from_cd(r.headers.get('content-disposition'))
+    filename = filename.replace('"', "")
     print("downloading...", filename)
     open(filename, 'wb').write(r.content)
     print("Successfully downloaded", filename)
