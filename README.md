@@ -1,4 +1,4 @@
-# Music webScraper
+# Music Artiste webScraper
 Downloads music from mp3-red.co for any Artiste
 
 Version 3
