@@ -11,8 +11,8 @@ Version 3
 - Added code to replace quotes from scraped files in May 2020
 
 # How To
-- Run the module from your python console.
 - Run the `pip install -r requirements.txt` to include required packages
+- Run the module from your python console.
 - Insert name of the Artist 
 - Wait for it, all songs found by the artist would be downloaded from mp3-red.co
 
